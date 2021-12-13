@@ -1,0 +1,133 @@
+   
+@media (max-width:1200px) {
+    .container{
+        max-width: 970px;
+    }
+    .video__section{
+        flex-direction: column;
+    }
+    .video__bg{
+        width: 100%;
+        position: static;
+    }
+    .player{
+        right: 0;
+    }
+    .left__img{
+        display: none;
+    }
+}
+
+@media (max-width:992px) {
+    .container{
+        max-width: 750px;
+    } 
+    .product__content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .best__section{
+        margin-top: 50px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .best__right{
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .best__title{
+        font-size: 36px;
+    }
+    .header__content{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .left__content{
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .line{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .slider{
+        flex-direction: column-reverse;
+    }
+    .slider__line{
+        width: 100%;
+        padding: 0;
+    }
+
+}
+@media (max-width:768px) {
+    .container{
+        max-width: none;
+    }
+    .absolute{
+        left: 0;
+        top: 0;
+        padding: 40px 0 0 30px;
+    }
+    .best__title{
+        font-size: 36px;
+    }
+    .best__right{
+        margin: 0;
+    }
+    .nav{
+        display: none;
+    }
+    .left__reviews{
+        justify-content: space-between;
+    }
+    .panel{
+       padding: 25px;
+    }
+    .panel-line{
+        margin: 0;
+    }
+    .fa-play-circle{
+        font-size: 48px;
+    }
+    .view{
+        display: none;
+    }
+    .play{
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .video-time{
+        margin-left: 10px;
+    }
+    .time-current{
+        display: none;
+    }
+    .video-speed{
+        display: none;
+    }
+    .slide__content{
+        text-align: center;
+    }
+    .slide__card{
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+    .slide__rating{
+        align-items: center;
+        flex-direction: column;
+    }
+    .rating__description{
+        margin: 0;
+        text-align: center;
+    }
+    .slider__slide{
+        padding: 15px;
+    }
+.slider__slide{
+    position: static;
+}
+}
+
